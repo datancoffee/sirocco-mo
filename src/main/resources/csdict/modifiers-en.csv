@@ -1,0 +1,7 @@
+parsetype[key],score
+JJS,0.14
+JJR,0.12
+RBS,0.14
+RBR,0.12
+allcaps,0.12
+exclamation,0.12

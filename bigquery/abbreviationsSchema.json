@@ -1,0 +1,28 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "abbrev_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "positive",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negative",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "sis",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "keyhash",
+        "type": "STRING",
+        "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
+    }	
+]

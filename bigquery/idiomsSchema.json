@@ -1,0 +1,98 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "poslist_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "positive",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negative",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "sentiment",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "ambiguous",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "entity",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negation",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "acceptance",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "anger",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "anticipation",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "disgust",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "fear",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "guilt",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "interest",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "joy",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "sadness",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "shame",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "surprise",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "keyhash",
+        "type": "STRING",
+        "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
+    }	
+]

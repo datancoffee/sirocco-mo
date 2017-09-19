@@ -1,0 +1,43 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "lemma_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "pos_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negation",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "score",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "positive",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negative",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "sentiment",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "keyhash",
+        "type": "STRING",
+        "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
+    }	
+]

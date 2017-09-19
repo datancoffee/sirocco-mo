@@ -1,0 +1,2 @@
+poslist[key],positive,negative,sentiment,ambiguous,entity,negation,acceptance,anger,anticipation,disgust,fear,guilt,interest,joy,sadness,shame,surprise
+custom/JJ idiom/NN test/NN,0,0,,0,1,0,0,0,0,0,0,0,0,0,0,0,0

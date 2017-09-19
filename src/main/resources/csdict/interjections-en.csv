@@ -1,0 +1,898 @@
+interjection[key],positive,negative,sis,sentiment,replace-during-tokenize[flag]
+aah,0,0,0,0,1
+aargh,0,1,0,0,1
+aarrghh,0,1,0,0,1
+achoo,0,0,0,0,1
+ack,0,0,0,0,1
+adieu,0,0,0,0,1
+adios,0,0,0,0,1
+ah,0,0,0,0,1
+aha,0,0,0,0,1
+ahchoo,0,0,0,0,1
+ah-choo,0,0,0,0,1
+ahem,0,0,0,0,1
+ahh,0,0,0,0,1
+ahoy,0,0,0,0,1
+ahoy-hoy,0,0,0,0,1
+ai,0,0,0,0,1
+ai yah,1,0,0,0,1
+a'ight,0,0,0,0,1
+alack,0,0,0,0,1
+alakazam,0,0,0,0,1
+alas,0,0,0,0,1
+all hail,0,0,0,0,1
+alleluia,1,0,0,0,1
+alley oop,0,0,0,0,1
+allrighty,1,0,0,0,1
+aloha,0,0,0,0,1
+alreet,1,0,0,0,1
+alrighty,1,0,0,0,1
+amen,1,0,0,0,1
+amidships,0,0,0,0,1
+argh,0,1,0,0,1
+a'right,1,0,0,0,1
+arrah now,0,0,0,0,1
+astaghfirullah,0,0,0,0,1
+atchoo,0,0,0,0,1
+atishoo,0,0,0,0,1
+attaboy,1,0,0,0,1
+attagirl,1,0,0,0,1
+au revoir,0,0,0,0,1
+avast,0,0,0,0,1
+aw,0,0,0,0,1
+aw shucks,0,1,0,0,1
+aww,0,0,0,0,1
+awww,0,0,0,0,1
+ay,1,0,0,0,1
+"ay, chihuahua",1,0,0,0,1
+aye,1,0,0,0,1
+aye man,1,0,0,0,1
+ba da bing ba da boom,0,0,0,1,1
+baccare,0,0,0,0,1
+bada bing,0,0,0,1,1
+bada bing bada boom,0,0,0,1,1
+"bada bing, bada boom",0,0,0,1,1
+bada boom,0,0,0,1,1
+bada boom bada bing,0,0,0,1,1
+bah,0,0,0,0,1
+bam,0,0,0,0,1
+banzai,0,0,0,0,1
+baruch hashem,0,0,0,0,1
+begad,0,0,0,0,1
+begorra,0,0,0,0,1
+begorrah,0,0,0,0,1
+behold,0,0,0,0,1
+bejeezus,0,0,0,1,1
+bejesus,0,0,0,1,1
+big whoop,0,0,0,0,1
+big wow,1,0,0,0,1
+bish bash bosh,0,0,0,0,1
+blah,0,0,0,0,1
+blah blah blah,0,1,0,0,1
+bleah,0,0,0,0,1
+blech,0,0,0,0,1
+bleep,0,0,0,0,1
+bleh,0,0,0,0,1
+blimey,0,0,0,0,1
+bollocks,0,1,0,0,1
+bon voyage,1,0,0,0,1
+boo,0,1,0,0,1
+boo hoo,0,0,0,1,1
+boom,0,0,0,0,1
+booyah,0,0,0,0,1
+bosh,0,0,0,0,1
+bostin,0,0,0,0,1
+boutye,0,0,0,0,1
+bravo,1,0,0,0,1
+brr,0,0,0,1,1
+brrm,0,0,0,0,1
+brrr,0,0,0,1,1
+bueller,0,0,0,1,1
+buggeration,0,1,0,0,1
+bullocks,0,1,0,0,1
+bullseye,1,0,0,0,1
+bully,0,0,0,0,1
+bumpsadaisy,0,0,0,1,1
+but hey,0,0,0,0,1
+but seriously folks,0,0,0,0,1
+bwahaha,0,0,0,1,1
+by jingo,0,0,0,0,1
+bye,0,0,0,0,1
+'bye,0,0,0,0,1
+bzuh,0,0,0,0,1
+bzzt,0,0,0,0,1
+bzzzt,0,0,0,0,1
+c u l8r,0,0,0,0,1
+capeesh,0,0,0,0,1
+capisce,0,0,0,0,1
+caramba,0,0,0,0,1
+cha-ching,0,0,0,0,1
+chaptzem,0,0,0,0,1
+cheerio,1,0,0,0,1
+cheers,1,0,0,0,1
+cheese it,0,0,0,0,1
+chit,0,0,0,0,1
+chop-chop,0,0,0,0,1
+chuck you farley,0,1,0,0,1
+chupse,0,0,0,0,1
+ciao,0,0,0,0,1
+clackety,0,0,0,0,1
+click,0,0,0,0,1
+clickety,0,0,0,0,1
+congrats,1,0,0,0,1
+congratudolences,0,0,0,1,1
+coo,0,0,0,0,1
+cooee,0,0,0,0,1
+cooey,0,0,0,0,1
+cool beans,1,0,0,0,1
+cootchie-cootchie-coo,0,0,0,0,1
+coppish,0,0,0,0,1
+cor,0,0,0,0,1
+cor blimey,0,0,0,0,1
+cowabunga,0,0,0,0,1
+crikey,0,0,0,0,1
+criminy,0,0,0,0,1
+cripes,0,0,0,0,1
+crivens,0,0,0,0,1
+crivvens,0,0,0,0,1
+crump,0,0,0,0,1
+dang,0,1,0,0,1
+dang it,0,1,0,0,1
+dang tootin',1,0,0,0,1
+dang tooting,1,0,0,0,1
+darn,0,1,0,0,1
+darn tootin',1,0,0,0,1
+darn tooting,1,0,0,0,1
+darn straight,0,0,0,1,1
+dayum,0,0,0,0,1
+dear Lord,0,0,0,1,1
+dear me,0,0,0,1,1
+dearie me,0,0,0,1,1
+deary me,0,0,0,1,1
+deo volente,0,0,0,0,1
+devil take the hindmost,0,0,0,0,1
+dog my cats,0,1,0,0,1
+doggone,0,0,0,0,1
+doh,0,0,0,0,1
+d'oh,0,0,0,0,1
+dominus vobiscum,0,0,0,0,1
+don't give up your day job,0,1,0,0,1
+don't go there,0,1,0,0,1
+dot dot dot,0,0,0,0,1
+down with his apple-cart,0,0,0,0,1
+drat,0,0,0,0,1
+drop dead,0,0,0,0,1
+'dswounds,0,0,0,0,1
+duh,0,0,0,0,1
+durn,0,0,0,0,1
+durn tootin',1,0,0,0,1
+durn tooting,1,0,0,0,1
+easy does it,0,0,0,0,1
+eat one's dust,0,0,0,0,1
+eaw,0,0,0,0,1
+ecky thump,0,0,0,0,1
+eek,0,0,0,0,1
+eep,0,0,0,0,1
+eew,0,1,0,0,1
+eff all,0,0,0,0,1
+egad,0,0,0,0,1
+egads,0,0,0,0,1
+eh,0,0,0,0,1
+en garde,0,0,0,0,1
+encore,1,0,0,0,1
+er,0,0,0,0,1
+erm,0,0,0,0,1
+eureka,1,0,0,0,1
+ew,0,0,0,0,1
+eww,0,0,0,0,1
+ey up,0,0,0,0,1
+fair dinkum,0,0,0,0,1
+fair suck of the sauce bottle,0,0,0,0,1
+fair suck of the sav,0,0,0,0,1
+fark,0,0,0,0,1
+feck,0,0,0,0,1
+feh,0,0,0,0,1
+fiddlesticks,0,0,0,0,1
+fie,0,0,0,0,1
+fnord,0,0,0,0,1
+fo shizzle,0,0,0,0,1
+foggetaboutit,0,1,0,0,1
+fooey,0,0,0,0,1
+fook,0,0,0,0,1
+foom,0,0,0,0,1
+for cryin' out loud,0,1,0,0,1
+for crying out loud,0,1,0,0,1
+for fuck's sake,0,1,0,0,1
+for god's sake,0,1,0,0,1
+for heaven's sake,0,1,0,0,1
+for shame,0,0,0,0,1
+for sure,1,0,0,0,1
+for the love of christ,0,1,0,0,1
+for the love of god,0,1,0,0,1
+fore,0,0,0,0,1
+frack,0,0,0,0,1
+frak,0,0,0,0,1
+frick,0,0,0,0,1
+fsck,0,0,0,0,1
+fuddle-duddle,0,0,0,1,1
+fuhgeddaboudit,0,1,0,0,1
+full marks,1,0,0,0,1
+full stop,0,1,0,0,1
+gack,0,0,0,0,1
+gad,0,0,0,0,1
+gadzooks,0,0,0,0,1
+gag me with a spoon,0,0,0,0,1
+ga-ga,0,0,0,0,1
+gah,0,0,0,0,1
+gak,0,0,0,0,1
+gall dang,0,0,0,0,1
+gangway,0,0,0,0,1
+g'day,0,0,0,0,1
+gee,0,0,0,0,1
+gee up,0,0,0,0,1
+gee whiz,0,0,0,0,1
+gee whiz mo,0,0,0,0,1
+gee willikers,0,0,0,0,1
+geez,0,1,0,0,1
+geez Louise,0,1,0,0,1
+geroff,0,0,0,0,1
+geronimo,0,0,0,0,1
+gerroff,0,0,0,0,1
+gesundheit,0,0,0,0,1
+giddap,0,0,0,0,1
+giddy up,0,0,0,0,1
+giddyap,0,0,0,0,1
+giddyup,0,0,0,0,1
+g'night,0,0,0,0,1
+go figure,0,0,0,0,1
+go to the dickens,0,1,0,0,1
+god almighty,0,0,0,0,1
+god bless you,1,0,0,0,1
+god save the king,1,0,0,0,1
+god save the queen,1,0,0,0,1
+goddidit,0,0,0,0,1
+godspeed,0,0,0,0,1
+goldarnit,0,0,0,0,1
+goldurnit,0,0,0,0,1
+golly,0,0,0,0,1
+goo goo ga ga,0,0,0,0,1
+good going,0,0,0,0,1
+good grief,0,0,0,0,1
+good heavens,0,1,0,0,1
+good lord,0,1,0,0,1
+good riddance,0,0,0,0,1
+goodie,0,0,0,0,1
+goodness me,0,0,0,0,1
+goodo,0,0,0,0,1
+gorblimey,0,0,0,0,1
+gordon bennett,0,0,0,0,1
+gosh,0,0,0,0,1
+goshdarnit,0,1,0,0,1
+gramercy,0,0,0,0,1
+gratz,1,0,0,0,1
+great scott,0,0,0,0,1
+gulp,0,0,0,0,1
+gunny,0,0,0,0,1
+ha,0,0,0,0,1
+ha ha,0,0,0,0,1
+hadaway,0,0,0,0,1
+hah,0,0,0,0,1
+haha,1,0,0,0,1
+ha-ha,1,0,0,0,1
+hahaha,1,0,0,0,1
+hail,0,0,0,0,1
+hallelujah,1,0,0,0,1
+hallo,0,0,0,0,1
+halloa,0,0,0,0,1
+hamana-hamana-hamana,0,0,0,0,1
+hands off,0,0,0,0,1
+hands up,0,0,0,0,1
+hang in there,0,0,0,0,1
+happy thanksgiving,0,0,0,0,1
+har,0,0,0,0,1
+harch,0,0,0,0,1
+hardy har har,0,0,0,0,1
+harrumph,0,0,0,0,1
+harumph,0,0,0,0,1
+haw,0,0,0,0,1
+haway,0,0,0,0,1
+heads up,0,0,0,0,1
+"hear, hear",0,0,0,0,1
+heaven forbid,0,1,0,0,1
+heaven forfend,0,0,0,0,1
+heck,0,0,0,0,1
+hee,0,0,0,0,1
+hee-haw,0,0,0,0,1
+heh,0,0,0,0,1
+hehe,0,0,0,0,1
+heigh-ho,0,0,0,0,1
+hell no,0,1,0,0,1
+hell or high water,0,0,0,0,1
+hell yeah,1,0,0,0,1
+hella,0,0,0,0,1
+hello,0,0,0,0,1
+hello there,0,0,0,0,1
+hell's bells,0,0,0,0,1
+helluv,0,0,0,0,1
+hem,0,0,0,0,1
+hey,0,0,0,0,1
+hey presto,0,0,0,0,1
+hey rube,0,0,0,0,1
+heya,0,0,0,0,1
+heyday,0,0,0,0,1
+hi,0,0,0,0,1
+hi there,0,0,0,0,1
+hic,0,0,0,0,1
+hip,0,0,0,0,1
+hip hip hooray,0,0,0,0,1
+hist,0,0,0,0,1
+hiya,0,0,0,0,1
+hm,0,0,0,0,1
+h'm,0,0,0,0,1
+hmm,0,0,0,0,1
+hmmm,0,0,0,0,1
+hmph,0,0,0,0,1
+ho hum,0,0,0,0,1
+ho-hum,0,0,0,0,1
+hola,0,0,0,0,1
+hold it,0,0,0,0,1
+hold the phone,0,0,0,0,1
+holla,0,0,0,0,1
+holy cow,0,0,0,0,1
+holy crap,0,1,0,0,1
+holy crap on a cracker,0,0,0,0,1
+holy moley,0,1,0,0,1
+holy moly,0,1,0,0,1
+holy smoke,0,1,0,0,1
+honk,0,0,0,0,1
+hoo,0,0,0,0,1
+hoo man,0,0,0,0,1
+hooah,0,0,0,0,1
+hoocoodanode,0,0,0,0,1
+hoorah,1,0,0,0,1
+hooray,1,0,0,0,1
+hooroo,0,0,0,0,1
+hoowee,0,0,0,0,1
+hop it,0,0,0,0,1
+horse hockey,0,0,0,0,1
+horsefeathers,0,0,0,0,1
+hosanna,0,0,0,0,1
+hot damn,0,0,0,0,1
+hot diggety,0,0,0,0,1
+hot diggety dog,0,0,0,0,1
+hot dog,0,0,0,0,1
+hot tamale,1,0,0,0,1
+howay,0,0,0,0,1
+howdy,0,0,0,0,1
+howzat,0,0,0,0,1
+hoy,0,0,0,0,1
+hrm,0,0,0,0,1
+hubba hubba,0,0,0,0,1
+huh,0,0,0,0,1
+hullo,0,0,0,0,1
+humbug,0,0,0,0,1
+humph,0,0,0,0,1
+hup,0,0,0,0,1
+hurrah,1,0,0,0,1
+hurray,1,0,0,0,1
+hush,0,0,0,0,1
+hushaby,0,0,0,0,1
+hushabye,0,0,0,0,1
+huzza,0,0,0,0,1
+huzzah,0,0,0,0,1
+I should coco,0,0,0,0,1
+I should cocoa,0,0,0,0,1
+ick,0,0,0,0,1
+ikr,0,0,0,0,1
+I'll drink to that,0,0,0,0,1
+in-fucking-credible,0,1,0,0,1
+inshallah,0,0,0,0,1
+ish,0,0,0,0,1
+itshay,0,0,0,0,1
+iunno,0,0,0,0,1
+j'adoube,0,0,0,0,1
+jagoff,0,0,0,0,1
+janey mack,0,0,0,0,1
+jeah,0,0,0,0,1
+jeebus,0,0,0,0,1
+jeepers,0,1,0,0,1
+jeepers creepers,0,1,0,0,1
+jeet,0,0,0,0,1
+jeez,0,0,0,0,1
+jesum crow,0,0,0,0,1
+jesus h. christ,0,1,0,0,1
+jinkies,0,0,0,0,1
+jumping jesus,0,0,0,0,1
+kabish,0,0,0,0,1
+kablam,0,0,0,0,1
+kaboom,0,0,0,0,1
+ka-ching,0,0,0,0,1
+kapow,0,0,0,0,1
+kapwing,0,0,0,0,1
+keek,0,0,0,0,1
+keep it real,0,0,0,0,1
+kerblam,0,0,0,0,1
+kerching,0,0,0,0,1
+kerchoo,0,0,0,0,1
+kerplunk,0,0,0,0,1
+kerpow,0,0,0,0,1
+kilroy was here,0,0,0,0,1
+knock knock,0,0,0,0,1
+kthxbye,0,0,0,0,1
+la-di-da,0,0,0,0,1
+lah-de-dah,0,0,0,0,1
+lah-di-dah,0,0,0,0,1
+land ahoy,0,0,0,0,1
+lawks,0,0,0,0,1
+lest we forget,0,0,0,0,1
+likee,0,0,0,0,1
+lo and behold,0,0,0,0,1
+lolz,0,0,1,0,1
+long story short,0,0,0,0,1
+long time no hear,0,0,0,0,1
+long time no see,0,0,0,0,1
+look you,0,0,0,0,1
+lookit,0,0,0,0,1
+lord love a duck,0,0,0,0,1
+lots of love,1,0,0,0,1
+lovely jubbly,0,0,0,0,1
+lucky you,0,0,0,0,1
+maa,0,0,0,0,1
+mafeesh,0,0,0,0,1
+magtig,0,0,0,0,1
+mama mia,0,0,0,0,1
+man overboard,0,0,0,0,1
+marry come up,0,0,0,0,1
+mavrone,0,0,0,0,1
+mazal tov,1,0,0,0,1
+mazel tov,1,0,0,0,1
+mazeltov,1,0,0,0,1
+meef,0,0,0,0,1
+meh,0,0,0,0,1
+mem.,0,0,0,0,1
+mew,0,0,0,0,1
+mhm,0,0,0,0,1
+mind you,0,0,0,0,1
+mirabile dictu,0,0,0,0,1
+mmhm,0,0,0,0,1
+mmhmm,0,0,0,0,1
+mmkay,0,0,0,0,1
+mmm,0,0,0,0,1
+moo,0,0,0,0,1
+mu,0,0,0,0,1
+muahahaha,0,0,0,0,1
+mum,0,0,0,0,1
+mush,0,0,0,0,1
+mwah,0,0,0,0,1
+mwah ha ha,0,0,0,0,1
+my,0,0,0,0,0
+my bad,0,0,0,0,1
+my god,0,0,0,0,1
+my goodness,0,0,0,0,1
+my my,0,0,0,0,1
+my pleasure,1,0,0,0,1
+my word,0,0,0,0,1
+n.b.,0,0,0,0,1
+na,0,0,0,0,1
+nah,0,0,0,0,1
+naipoo,0,0,0,0,1
+namaste,0,0,0,0,1
+napoo,0,0,0,0,1
+nee,0,0,0,0,1
+nee way,0,0,0,0,1
+neener,0,0,0,0,1
+nenikekamen,0,0,0,0,1
+nenikikamen,0,0,0,0,1
+ner,0,0,0,0,1
+nerts,0,0,0,0,1
+net-net,0,0,0,0,1
+never say die,0,0,0,0,1
+nice one,1,0,0,0,1
+nil desperandum,0,0,0,0,1
+no can do,0,1,0,0,1
+no duh,0,1,0,0,1
+no kidding,0,0,0,0,1
+no prob,1,0,0,0,1
+no thank you,0,1,0,0,1
+no way,0,1,0,0,1
+nolo episcopari,0,0,0,0,1
+nom,0,0,0,0,1
+nom nom nom,0,0,0,0,1
+nosuh,0,0,0,0,1
+not to put too fine a point on it,0,0,0,0,1
+nota bene,0,0,0,0,1
+notate bene,0,0,0,0,1
+now that's what I'm talking about,1,0,0,0,1
+"now, now",0,0,1,0,1
+nu,0,0,0,0,1
+nuh-uh,0,0,0,0,1
+nuts,0,0,0,0,1
+nyuk,0,0,0,0,1
+obscurans obscurantis,0,0,0,0,1
+ods bodikin,0,0,0,0,1
+oggy oggy oggy,0,0,0,0,1
+oh,0,0,0,0,1
+oh boy,0,1,0,0,1
+oh dear,0,1,0,0,1
+oh god,0,1,0,0,1
+oh man,0,1,0,0,1
+oh my,0,1,0,0,1
+oh my god,0,1,0,0,1
+oh my heck,0,1,0,0,1
+oh no,0,1,0,0,1
+"oh, well",0,0,0,0,1
+ohmigod,1,0,0,0,1
+ohmmm,0,0,0,0,1
+oho,0,0,0,0,1
+oh-oh,0,0,0,0,1
+oi,0,0,0,0,1
+oink,0,0,0,0,1
+okey dokey,1,0,0,0,1
+okey-doke,1,0,0,0,1
+okey-dokey,1,0,0,0,1
+ole,0,0,0,0,1
+olé,0,0,0,0,1
+omigod,1,0,0,0,1
+omigosh,1,0,0,0,1
+on your bike,0,0,0,0,1
+"on your horse, amigo",0,0,0,0,1
+on your marks,0,0,0,0,1
+one and one's,0,0,0,0,1
+oof,0,0,0,0,1
+oofta,0,0,0,0,1
+ooh,0,0,0,0,1
+oojie-boojie,0,0,0,0,1
+ook,0,0,0,0,1
+oontz,0,0,0,0,1
+oooh,0,0,0,0,1
+ooooh,0,0,0,0,1
+oops,0,1,1,0,1
+oopsie,0,0,0,0,1
+oopsy,0,0,0,0,1
+oorah,0,0,0,0,1
+open sesame,0,0,0,0,1
+ouch,0,1,0,0,1
+ow,0,0,0,0,1
+oy,0,0,0,0,1
+oy gevalt,0,0,0,0,1
+oy vey,0,0,0,0,1
+oyez,0,0,0,0,1
+pad,0,0,0,0,1
+pah,0,0,0,0,1
+pan-pan,0,0,0,0,1
+pardon,0,0,0,0,1
+peace out,0,0,0,0,1
+perish the thought,0,0,0,0,1
+pew,0,0,0,0,0
+pfaugh,0,0,0,0,1
+pff,0,0,0,0,1
+pfft,0,0,0,0,1
+pfui,0,0,0,0,1
+phew,0,0,0,1,1
+phfft,0,0,0,0,1
+phooey,0,0,0,0,1
+phwoar,0,0,0,0,1
+pip-pip,0,0,0,0,1
+pish,0,0,0,0,1
+pistols at dawn,0,0,0,0,1
+pity,0,0,0,0,1
+please,0,0,0,0,0
+plonk,0,0,0,0,1
+poof,0,0,0,0,1
+pooh,0,0,0,0,1
+pop,0,0,0,0,1
+pouf,0,0,0,0,1
+pow,0,0,0,0,1
+pray tell,0,0,0,0,1
+presto,0,0,0,0,1
+presto change-o,0,0,0,0,1
+presto chango,0,0,0,0,1
+pretty please,0,0,0,0,1
+prithee,0,0,0,0,1
+pshaw,0,0,0,0,1
+psshaw,0,0,0,0,1
+pssst,0,0,0,0,1
+psst,0,0,0,0,1
+qapla',0,0,0,0,1
+quoi ci quoi ça,0,0,0,0,1
+quotha,0,0,0,0,1
+rah,0,0,0,0,1
+rats,0,0,0,0,1
+rat-tat-tat,0,0,0,0,1
+rawr,0,0,0,0,1
+"ready, aim, fire!",0,0,0,0,1
+"ready, steady, go",0,0,0,0,1
+red alert,0,0,0,0,1
+rest his soul,0,0,0,0,1
+ribbit,0,0,0,0,1
+right on,1,0,0,0,1
+right-ho,0,0,0,0,1
+righto,0,0,0,0,1
+right-oh,0,0,0,0,1
+righty,0,0,0,0,1
+righty-ho,0,0,0,0,1
+rock on,1,0,0,0,1
+roflcopter,0,0,0,0,1
+roll up,0,0,0,0,1
+rowrbazzle,0,0,0,0,1
+rrr,0,0,0,0,1
+rubbish,0,1,0,0,1
+saieeda,0,0,0,0,1
+salaam,0,0,0,0,1
+salam,0,0,0,0,1
+sankyu,1,0,0,0,1
+sankyuu,1,0,0,0,1
+say wha,0,0,0,0,1
+say what,0,0,0,0,1
+sayonara,0,0,0,0,1
+'sblood,0,0,0,0,1
+'scuse,0,0,0,0,1
+see ya,0,0,0,0,1
+see you soon,0,0,0,0,1
+selah,0,0,0,0,1
+'sfoot,0,0,0,0,1
+sh,0,0,0,0,1
+shaddap,0,0,0,0,1
+shame on you,0,1,0,0,1
+shana tova,0,0,0,0,1
+shazaam,0,0,0,0,1
+shazam,0,0,0,0,1
+shazbot,0,0,0,0,1
+sheesh,0,1,0,0,1
+shh,0,0,0,0,1
+shhh,0,0,0,0,1
+shiver my timbers,0,0,0,0,1
+shoo,0,0,0,0,1
+shoop,0,0,0,0,1
+siam,0,0,0,0,1
+sieg heil,0,0,0,0,1
+sis boom bah,0,0,0,0,1
+sithee,0,0,0,0,1
+skoal,0,0,0,0,1
+smeg,0,0,0,0,1
+snap,0,0,0,0,1
+so be it,0,0,0,0,1
+so long,0,0,0,0,1
+so what,0,0,0,0,1
+sod,0,0,0,0,1
+sooey,0,0,0,0,1
+squee,0,0,0,0,1
+squush,0,0,0,0,1
+srsly,0,0,0,0,1
+sry,0,0,0,0,1
+stap my vitals,0,0,0,0,1
+stone me,0,0,0,0,1
+stone the crows,0,0,0,0,1
+stop the lights,0,0,0,0,1
+stop the presses,0,0,0,0,1
+strewth,0,0,0,0,1
+struth,0,0,0,0,1
+'struth,0,0,0,0,1
+sugar honey ice tea,0,0,0,0,1
+sup,0,0,0,0,1
+sure thing,1,0,0,0,1
+sweet action,0,0,0,0,1
+ta everso,0,0,0,0,1
+ta muchly,0,0,0,0,1
+ta ta,0,0,0,0,1
+ta ta for now,0,0,0,0,1
+ta tah,0,0,0,0,1
+ta-da,0,0,0,0,1
+tah tah,0,0,0,0,1
+tah-tah,0,0,0,0,1
+take care,0,0,0,0,1
+tally ho,0,0,0,0,1
+tallyho,0,0,0,0,1
+tally-ho,0,0,0,0,1
+tant mieux,0,0,0,0,1
+ta-ra,0,0,0,0,1
+ta-ta,0,0,0,0,1
+ta-ta for now,0,0,0,0,1
+ta-tah,0,0,0,0,1
+tatty bye,0,0,0,0,1
+tch,0,0,0,0,1
+tchick,0,0,0,0,1
+tee hee,0,0,0,0,1
+tee hee hee,0,0,0,0,1
+thank goodness,0,0,0,0,1
+thankee,0,0,0,0,1
+thank'ee,0,0,0,0,1
+thanks for nothing,0,0,0,0,1
+thankyou,0,0,0,0,1
+thanx,1,0,0,0,1
+that sucks,0,1,0,0,1
+that's all she wrote,0,0,0,0,1
+that's just me,0,0,0,0,1
+that's life,0,0,0,0,1
+that's that,0,0,0,0,1
+that's what I'm talking about,1,0,0,0,1
+the hell with it,0,1,0,0,1
+there ya go,0,0,0,0,1
+there you go,0,0,0,0,1
+thiam,0,0,0,0,1
+think fast,0,0,0,0,1
+thunk,0,0,0,0,1
+thwomp,0,0,0,0,1
+ticky,0,0,0,0,1
+time out,0,0,0,0,1
+to say the least,0,0,0,0,1
+toodeloo,0,0,0,0,1
+toodle pip,0,0,0,0,1
+toodle-oo,0,0,0,0,1
+toodles,0,0,0,0,1
+topping,0,0,0,0,1
+touch wood,0,0,0,0,1
+touché,0,0,0,0,1
+trick or treat,0,0,0,0,1
+truth be told,0,0,0,0,1
+tsk tsk,0,0,0,0,1
+tush,0,0,0,0,1
+tut,0,0,0,0,1
+tut tut,0,0,0,0,1
+tut-tut,0,0,0,0,1
+uffda,0,0,0,0,1
+uffdah,0,0,0,0,1
+ugh,0,1,0,0,1
+uh,0,0,0,0,1
+uh huh,0,0,0,0,1
+uh oh,0,0,0,0,1
+uh-huh,0,0,0,0,1
+uh-oh,0,0,0,0,1
+uhuh,0,0,0,0,1
+uh-uh,0,0,0,0,1
+um,0,0,0,0,1
+umm,0,0,0,0,1
+ungh,0,0,0,0,1
+unh-uh,0,0,0,0,1
+unquote,0,0,0,0,1
+up top,0,0,0,0,1
+up yours,0,1,0,0,1
+upsadaisy,0,0,0,0,1
+ur,0,0,0,0,1
+va-va-voom,0,0,0,0,1
+very well,0,0,0,0,1
+viva,0,0,0,0,1
+voetsek,0,0,0,0,1
+voila,1,0,0,0,1
+voilà,1,0,0,0,1
+vroom,0,0,0,0,1
+w00t,1,0,0,0,1
+wacko,0,1,0,0,1
+wah,0,0,0,0,1
+wahey,0,0,0,0,1
+wahlau,0,0,0,0,1
+wahoo,0,0,0,0,1
+wakey wakey,0,0,0,0,1
+wassup,0,0,0,0,1
+water to my mill,0,0,0,0,1
+waz up,0,0,0,0,1
+we aye,0,0,0,0,1
+well ain't that the catfish in the trap,0,0,0,0,1
+well done,1,0,0,0,1
+well said,1,0,0,0,1
+"well, I never",0,0,0,0,1
+"well, well",0,0,0,0,1
+wellaway,0,0,0,0,1
+welp,0,0,0,0,1
+werdup,0,0,0,0,1
+wha,0,0,0,0,1
+whaddup,0,0,0,0,1
+whammo,0,0,0,0,1
+whap,0,0,0,0,1
+what a way to go,0,0,0,0,1
+what do you know,0,0,0,0,1
+what gives,0,0,0,0,1
+what it do,0,0,0,0,1
+what the...?,0,0,0,0,1
+what up,0,0,0,0,1
+whatever floats your boat,0,0,0,0,1
+whatevs,0,0,0,0,1
+what's happening,0,0,0,0,1
+whatsay,0,0,0,0,1
+whee,0,0,0,0,1
+"when, as, and if",0,0,0,0,1
+whew,0,0,0,0,1
+whish,0,0,0,0,1
+whisht,0,0,0,0,1
+whiskey tango foxtrot,0,0,0,0,1
+whist,0,0,0,0,1
+who writes this stuff?,0,1,0,0,1
+whoa,0,0,0,0,1
+whoo,0,0,0,0,1
+whoopee,0,0,0,0,1
+whoopee do,0,0,0,0,1
+whoopee-do,0,0,0,0,1
+whoops,0,0,0,0,1
+whoopsadaisy,0,0,0,0,1
+whoops-a-daisy,0,0,0,0,1
+whoosh,0,0,0,0,1
+who's a pretty boy then,0,0,0,0,1
+wibble-wobble,0,0,0,0,1
+wilco,0,0,0,0,1
+with respect,0,0,0,0,1
+wo,0,0,0,0,1
+woah,0,0,0,0,1
+woe is me,0,0,0,0,1
+woo,0,0,0,0,1
+woo hoo,1,0,0,0,1
+woof,0,0,0,0,1
+woohoo,1,0,0,0,1
+woopiedoo,1,0,0,0,1
+woops,0,0,0,1,1
+woot,1,0,0,0,1
+word up,0,0,0,0,1
+wotcher,0,0,0,0,1
+wow,0,0,0,1,1
+wuzzup,0,0,0,0,1
+wye aye,0,0,0,0,1
+ya,0,0,0,0,1
+yabba dabba doo,0,0,0,0,1
+yah boo,0,0,0,0,1
+yar,0,0,0,0,1
+yaroo,0,0,0,0,1
+yarooh,0,0,0,0,1
+yassuh,0,0,0,0,1
+yay,0,0,0,0,1
+yea,0,0,0,0,1
+yeah,0,0,0,0,1
+yeah right,0,0,0,0,1
+"yeah, right",0,0,0,0,1
+yecch,0,0,0,0,1
+yech,0,0,0,0,1
+yeeha,0,0,0,0,1
+yeehaw,0,0,0,0,1
+yeek,0,0,0,0,1
+yeep,0,0,0,0,1
+yeh,0,0,0,0,1
+yes,0,0,0,0,1
+yes way,1,0,0,0,1
+yes'm,0,0,0,0,1
+yesss,0,0,0,0,1
+yiff,0,0,0,0,1
+yikes,0,1,0,0,1
+yipe,0,0,0,0,1
+yippee,1,0,0,0,1
+yo,0,0,0,0,1
+yo mamma,0,0,0,0,1
+yo momma,0,0,0,0,1
+yo-ho-ho,0,0,0,0,1
+yoicks,0,0,0,0,1
+yoink,0,0,0,0,1
+yoo hoo,1,0,0,0,1
+yoohoo,1,0,0,0,1
+yoo-hoo,1,0,0,0,1
+you bet,1,0,0,0,1
+you don't say,0,0,0,0,1
+you know it,0,0,0,0,1
+you know what,0,0,0,0,1
+you knows it,0,0,0,0,1
+youch,0,0,0,0,1
+yow,0,0,0,0,1
+yowzah,0,0,0,0,1
+yuck,0,1,0,0,1
+yuk,0,1,0,0,1
+yum,1,0,0,0,1
+yummo,0,0,0,0,1
+yummy,1,0,0,0,1
+'zackly,1,0,0,0,1
+'zactly,1,0,0,0,1
+zap,0,0,0,0,1
+zindabad,0,0,0,0,1
+zing,0,0,0,0,1
+zip,0,0,0,0,1
+zoinks,0,0,0,0,1
+zomg,0,0,0,0,1
+zounds,0,0,0,0,1
+zowie,0,0,0,0,1
+zzz,0,0,0,0,1
+yup,0,0,0,0,1
+thank you,0,0,0,0,1
+good god,0,0,0,1,1
+bog off,0,1,0,0,1
+bring it on,0,0,0,0,1
+buck up,0,0,0,0,1
+bug off,0,1,0,0,1
+chin up,0,0,0,0,1
+come off it,0,0,0,0,1
+come on down,0,0,0,0,1
+be safe,1,0,0,0,1

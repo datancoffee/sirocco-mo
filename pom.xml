@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sirocco.sirocco-mo</groupId>
+  <artifactId>sirocco-mo</artifactId>
+  <version>1.0.1</version>
+  <packaging>jar</packaging>
+  <name>Sirocco Sentiment Analysis Model Files</name>
+  <description>Model files for the Sirocco Sentiment Analysis Framework</description>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+      <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-shade-plugin</artifactId>
+      	<version>2.3</version>
+      </plugin>
+    </plugins>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+          <includes>
+          	<include>config.properties</include>
+          	<include>csdict/*</include>
+          	<include>wordnet/*</include>
+            <include>opennlp15model-sa/en-chunker.bin</include>
+            <include>opennlp15model-sa/en-parser-chunking.bin</include>
+            <include>opennlp15model-sa/en-pos-maxent.bin</include>
+            <include>opennlp15model-sa/en-sent.bin</include>
+            <include>opennlp15model-sa/en-token.bin</include>
+          </includes>
+      </resource>
+    </resources>      
+  </build>
+  <dependencies>
+  </dependencies>
+</project>

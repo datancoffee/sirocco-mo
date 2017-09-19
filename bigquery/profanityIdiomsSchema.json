@@ -1,0 +1,43 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "poslist_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "profane",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "profane_when_combined",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "unsafe",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "unsafe_when_combined",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "entity",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "negation",
+        "type": "FLOAT"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "keyhash",
+        "type": "STRING",
+        "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
+    }	
+]

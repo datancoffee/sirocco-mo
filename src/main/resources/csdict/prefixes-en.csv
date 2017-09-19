@@ -1,0 +1,10 @@
+prefix[key],score,negation
+well,0.12,0
+hyper,0.14,0
+ultra,0.14,0
+over,0.12,0
+under,0.1,1
+anti,0.1,1
+contra,0.1,1
+counter,0.1,1
+non,0.1,1
