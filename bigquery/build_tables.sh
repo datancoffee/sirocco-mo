@@ -38,5 +38,13 @@ bq $1 --schema=interjectionsSchema.json -t $DATASET_ID.interjections
 bq $1 --schema=profanityIdiomsSchema.json -t $DATASET_ID.profanityidioms
 bq $1 --schema=qualitiesSchema.json -t $DATASET_ID.qualities
 
+bq $1 --schema=bfoverridesSchema.json -t $DATASET_ID.bfoverrides
+bq $1 --schema=emoticonsSchema.json -t $DATASET_ID.emoticons
+bq $1 --schema=modifiersSchema.json -t $DATASET_ID.modifiers
+bq $1 --schema=negatorsSchema.json -t $DATASET_ID.negators
+bq $1 --schema=patternsSchema.json -t $DATASET_ID.patterns
+bq $1 --schema=prefixesSchema.json -t $DATASET_ID.prefixes
+bq $1 --schema=substitutionsSchema.json -t $DATASET_ID.substitutions
+
 
 

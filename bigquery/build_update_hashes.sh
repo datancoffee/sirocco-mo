@@ -18,41 +18,79 @@ DATASET_ID=${DATASET_ID:-"sirocco_dict_en"}
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.abbreviations`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(abbrev_key)),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(abbrev_key)),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.degreeadverbs`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.emotions`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.idioms`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.customidioms`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.interjections`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(interjection_key)),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(interjection_key)),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.profanityidioms`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(poslist_key)),1,8),"/","_"),"+","-")
 WHERE true';
 
 bq query --use_legacy_sql=false \
 'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.qualities`
-SET keyhash = SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8)
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8),"/","_"),"+","-")
 WHERE true';
+
+
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.bfoverrides`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.emoticons`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(emoticon_key)),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.modifiers`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(parsetype_key)),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.negators`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(CONCAT(lemma_key,"/",pos_key))),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.patterns`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(pattern_key)),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.prefixes`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(prefix_key)),1,8),"/","_"),"+","-")
+WHERE true';
+
+bq query --use_legacy_sql=false \
+'UPDATE `'$PROJECT_ID'.'$DATASET_ID'.substitutions`
+SET shortkey = REPLACE(REPLACE(SUBSTR(TO_BASE64(SHA256(abbrev_key)),1,8),"/","_"),"+","-")
+WHERE true';
+
 

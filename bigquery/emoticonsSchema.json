@@ -1,43 +1,38 @@
 [
     {
         "mode": "REQUIRED",
-        "name": "poslist_key",
+        "name": "emoticon_key",
         "type": "STRING"
     },
     {
         "mode": "REQUIRED",
-        "name": "profane",
+        "name": "positive",
         "type": "FLOAT"
     },
     {
         "mode": "REQUIRED",
-        "name": "profane_when_combined",
+        "name": "negative",
         "type": "FLOAT"
     },
     {
         "mode": "REQUIRED",
-        "name": "unsafe",
+        "name": "sis",
         "type": "FLOAT"
     },
     {
         "mode": "REQUIRED",
-        "name": "unsafe_when_combined",
+        "name": "surprise",
         "type": "FLOAT"
     },
     {
         "mode": "REQUIRED",
-        "name": "entity",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "REQUIRED",
-        "name": "negation",
+        "name": "requires_closing_tokenizer_flag",
         "type": "FLOAT"
     },
     {
         "mode": "NULLABLE",
         "name": "shortkey",
         "type": "STRING",
-        "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
+        "description" : "Url-safe (/ and + replaced with _ and -) variation of base64 algo. Takes first 8 chars of TO_BASE64(SHA256()) of all key columns, concatenated with '/'. Equivalent to org.apache.commons.codec.binary.Base64.encodeBase64URLSafeString"
     }	
 ]

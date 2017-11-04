@@ -41,3 +41,31 @@ bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.profanityidioms 
 gsutil cp ../src/main/resources/csdict/qualities-en.csv gs://$GCS_BUCKET/temp/
 bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.qualities gs://$GCS_BUCKET/temp/qualities-en.csv qualitiesSchema.json
 
+
+gsutil cp ../src/main/resources/csdict/bfoverrides-en.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.bfoverrides gs://$GCS_BUCKET/temp/bfoverrides-en.csv bfoverridesSchema.json
+
+gsutil cp ../src/main/resources/csdict/emoticons.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.emoticons gs://$GCS_BUCKET/temp/emoticons.csv emoticonsSchema.json
+
+gsutil cp ../src/main/resources/csdict/modifiers-en.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.modifiers gs://$GCS_BUCKET/temp/modifiers-en.csv modifiersSchema.json
+
+gsutil cp ../src/main/resources/csdict/negators-en.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.negators gs://$GCS_BUCKET/temp/negators-en.csv negatorsSchema.json
+
+gsutil cp ../src/main/resources/csdict/patterns.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.patterns gs://$GCS_BUCKET/temp/patterns.csv patternsSchema.json
+
+gsutil cp ../src/main/resources/csdict/prefixes-en.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.prefixes gs://$GCS_BUCKET/temp/prefixes-en.csv prefixesSchema.json
+
+gsutil cp ../src/main/resources/csdict/substitutions-en.csv gs://$GCS_BUCKET/temp/
+bq load --skip_leading_rows=1 --allow_jagged_rows=1 $DATASET_ID.substitutions gs://$GCS_BUCKET/temp/substitutions-en.csv substitutionsSchema.json
+
+
+
+
+
+
+

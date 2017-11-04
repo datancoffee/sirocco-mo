@@ -28,3 +28,7 @@ echo "Finished loading data"
 echo "Beginning to update hashes"
 ./build_update_hashes.sh
 echo "Finished updating hashes"
+
+echo "Beginning to build views"
+./build_views.sh mk
+echo "Finished building views"

@@ -1,0 +1,18 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "abbrev_key",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "substitution",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "shortkey",
+        "type": "STRING",
+        "description" : "Url-safe (/ and + replaced with _ and -) variation of base64 algo. Takes first 8 chars of TO_BASE64(SHA256()) of all key columns, concatenated with '/'. Equivalent to org.apache.commons.codec.binary.Base64.encodeBase64URLSafeString"
+    }	
+]

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>sirocco.sirocco-mo</groupId>
   <artifactId>sirocco-mo</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
   <name>Sirocco Sentiment Analysis Model Files</name>
   <description>Model files for the Sirocco Sentiment Analysis Framework</description>

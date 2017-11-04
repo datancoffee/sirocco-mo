@@ -41,7 +41,7 @@
     },
     {
         "mode": "NULLABLE",
-        "name": "keyhash",
+        "name": "shortkey",
         "type": "STRING",
         "description" : "First 8 characters of TO_BASE64(SHA256()) of all key columns, concatenated with '/'"
     }	
